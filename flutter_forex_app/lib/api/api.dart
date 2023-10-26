@@ -10,7 +10,7 @@ class ApiRequest {
   Dio _dio() {
     return Dio(BaseOptions(headers: {
       'Authorization':
-          'Bearer YOUR_OANDA_AUTH_KEY',
+          'Bearer HERE_YOU_HAVE_TO_ADD_KEY',
     }));
   }
 
@@ -24,3 +24,4 @@ class ApiRequest {
     }
   }
 }
+//HADI

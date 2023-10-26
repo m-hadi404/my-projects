@@ -7,7 +7,7 @@ class WeatherService {
   final String city;
 
   String baseUrl = 'https://api.openweathermap.org/data/2.5';
-  String apiKey = 'appid=YOUR-OPENWEATHER-APPID';
+  String apiKey = 'appid=ADD-UOU-KEY';
 
   WeatherService({@required this.city});
 
@@ -58,3 +58,4 @@ class WeatherService {
             });
   }
 }
+//HADI

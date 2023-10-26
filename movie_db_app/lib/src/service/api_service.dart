@@ -10,7 +10,7 @@ class ApiService {
   final Dio _dio = Dio();
 
   final String baseUrl = 'https://api.themoviedb.org/3';
-  final String apiKey = 'api_key=YOUR-MOVIE-DB-API-KEY';
+  final String apiKey = 'api_key=ADD-THE-API-KEI';
 
   Future<List<Movie>> getNowPlayingMovie() async {
     try {
@@ -119,3 +119,4 @@ class ApiService {
     }
   }
 }
+//hadi
